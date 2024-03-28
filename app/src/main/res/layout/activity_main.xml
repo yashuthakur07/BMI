@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+ <EditText
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:hint="Enter your Weight"
+     android:id="@+id/edtweight"
+     android:textStyle="italic"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     android:background="#BD0B47"
+     android:layout_margin="25dp"
+     android:inputType="number">
+
+ </EditText>
+ <EditText
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:hint="Enter your height in feet"
+     android:textStyle="italic"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     android:background="#BD0B47"
+     android:id="@+id/edtHeight"
+     android:layout_margin="25dp"
+     android:inputType="number">
+
+ </EditText>
+ <EditText
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:textStyle="italic"
+     android:textColor="@color/black"
+     android:textSize="25dp"
+     android:background="#BD0B47"
+     android:hint="Enter your height in Inch"
+     android:id="@+id/edtHeightIn"
+     android:layout_margin="25dp"
+     android:inputType="number">
+
+ </EditText>
+
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/btn"
+     android:text="Calculate BMI"
+
+     android:layout_margin="25dp">
+
+ </Button>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Result"
+     android:textStyle="italic"
+     android:textSize="15dp"
+     android:layout_margin="95dp"
+     android:background="#1335F3"
+     android:textColor="@color/white"
+     android:padding="22dp"
+     android:id="@+id/txt">
+
+
+ </TextView>
+
+</LinearLayout>
