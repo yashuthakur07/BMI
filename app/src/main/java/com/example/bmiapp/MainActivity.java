@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Main extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     EditText edtweight, edtHeight, edtHeightIn;
     Button btn;
     TextView txt;
